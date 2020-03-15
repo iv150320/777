@@ -1,0 +1,260 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Ubuntu,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+  color: #555;
+  background-color: #fff;
+}
+
+.panel {
+  border: none;
+}
+
+.panel-body {
+  border: none !important;
+  padding: 0;
+}
+
+.panel-default > .panel-heading {
+  background-color: transparent;
+}
+
+/*--------------------------------------------------------------
+## Scheme
+--------------------------------------------------------------*/
+.approach-scheme {
+  padding: 2rem 0;
+}
+.approach-scheme .container .approach-scheme-title {
+  color: #009fe3;
+}
+.approach-scheme .container .approach-scheme-title > * {
+  margin-bottom: 3rem;
+}
+.approach-scheme #scheme .panel-heading > * {
+  font-size: 20px;
+}
+.approach-scheme #scheme .panel-heading > * a {
+  background-color: #009fe3;
+  color: #ffffff;
+  display: block;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+.approach-scheme #scheme .panel-heading > * a .panel-title-tag {
+  background: #fff;
+  border: 2px solid #009fe3;
+  border-radius: 50%;
+  color: #009fe3;
+  font-weight: 700;
+  float: left;
+  width: 46px;
+  height: 46px;
+  line-height: 2.125;
+  text-align: center;
+  margin: -1rem 1rem 0 -2rem;
+}
+.approach-scheme #scheme .panel-heading > * a.collapsed {
+  background-color: #dadada;
+}
+.approach-scheme #scheme .panel-heading > * a.collapsed .panel-title-tag {
+  border: 2px solid #dadada;
+  color: #dadada;
+}
+.approach-scheme #scheme .panel {
+  padding-bottom: 2rem;
+}
+.approach-scheme #scheme .panel .panel-collapse.in {
+  padding-left: 5.5rem;
+}
+@media (min-width: 1024px) {
+  .approach-scheme #scheme {
+    position: relative;
+    min-height: 61rem;
+  }
+  .approach-scheme #scheme .panel-heading {
+    position: absolute;
+    width: 47rem;
+    height: 47rem;
+    padding: 0;
+    border-radius: 50%;
+    top: 7rem;
+    right: 7rem;
+  }
+  .approach-scheme #scheme .panel-heading > * {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 14rem;
+    height: 14rem;
+    margin: -7rem;
+    z-index: 500;
+  }
+  .approach-scheme #scheme > :nth-of-type(1) .panel-heading > * {
+    transform: rotate(-30deg) translate(23.5rem) rotate(30deg);
+  }
+  .approach-scheme #scheme > :nth-of-type(1) .panel-heading > * a {
+    background-image: url("");
+  }
+  .approach-scheme #scheme > :nth-of-type(2) .panel-heading > * {
+    transform: rotate(30deg) translate(23.5rem) rotate(-30deg);
+  }
+  .approach-scheme #scheme > :nth-of-type(2) .panel-heading > * a {
+    background-image: url("");
+  }
+  .approach-scheme #scheme > :nth-of-type(3) .panel-heading > * {
+    transform: rotate(90deg) translate(23.5rem) rotate(-90deg);
+  }
+  .approach-scheme #scheme > :nth-of-type(3) .panel-heading > * a {
+    background-image: url("");
+  }
+  .approach-scheme #scheme > :nth-of-type(4) .panel-heading > * {
+    transform: rotate(150deg) translate(23.5rem) rotate(-150deg);
+  }
+  .approach-scheme #scheme > :nth-of-type(4) .panel-heading > * a {
+    background-image: url("");
+  }
+  .approach-scheme #scheme > :nth-of-type(5) .panel-heading > * {
+    transform: rotate(210deg) translate(23.5rem) rotate(-210deg);
+  }
+  .approach-scheme #scheme > :nth-of-type(5) .panel-heading > * a {
+    background-image: url("");
+  }
+  .approach-scheme #scheme > :nth-of-type(6) .panel-heading > * {
+    transform: rotate(270deg) translate(23.5rem) rotate(-270deg);
+  }
+  .approach-scheme #scheme > :nth-of-type(6) .panel-heading > * a {
+    background-image: url("");
+  }
+  .approach-scheme #scheme .panel-heading {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #fff;
+    border: 4px solid #dadada;
+  }
+  .approach-scheme #scheme .panel-heading > * {
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .approach-scheme #scheme .panel-heading > * a {
+    background-color: #009fe3;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    color: #ffffff;
+    display: block;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    padding: 50% 10% 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in;
+  }
+  .approach-scheme #scheme .panel-heading > * a .panel-title-tag {
+    background: #fff;
+    border: 2px solid #009fe3;
+    border-radius: 50%;
+    color: #009fe3;
+    font-weight: 700;
+    float: none;
+    width: 46px;
+    height: 46px;
+    line-height: 2.25;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin: -23px 0 0 -23px;
+    z-index: 9;
+    transform: rotate(230deg) translate(4em) rotate(-230deg);
+  }
+  .approach-scheme #scheme .panel-heading > * a:before {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+  }
+  .approach-scheme #scheme .panel-heading > * a:hover, .approach-scheme #scheme .panel-heading > * a:focus {
+    text-decoration: none;
+  }
+  .approach-scheme #scheme .panel-heading > * a.collapsed {
+    background-color: #dadada;
+  }
+  .approach-scheme #scheme .panel-heading > * a.collapsed .panel-title-tag {
+    border-color: #dadada;
+    color: #dadada;
+    transition: all 0.5s ease-in;
+  }
+  .approach-scheme #scheme .panel-heading > * a.collapsed .panel-title-tag .fa {
+    font-size: 2em;
+    line-height: 1.2;
+    padding-left: 5px;
+  }
+  .approach-scheme #scheme .panel-heading > * a.collapsed:hover {
+    background-color: #009fe3;
+  }
+  .approach-scheme #scheme .panel-heading > * a.collapsed:hover .panel-title-tag {
+    border-color: #009fe3;
+    color: #009fe3;
+  }
+  .approach-scheme #scheme .panel-collapse {
+    color: #ffffff;
+    position: absolute;
+    left: 8%;
+    top: 45%;
+    width: 30%;
+  }
+  .approach-scheme #scheme .panel-collapse.in {
+    padding-left: 0 !important;
+  }
+  .approach-scheme #scheme .panel {
+    padding: 0;
+  }
+  .approach-scheme .container {
+    position: relative;
+  }
+  .approach-scheme .container .approach-scheme-title {
+    background-color: #009fe3;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 50rem;
+    width: 50rem;
+    position: absolute;
+    left: 15px;
+    top: 7rem;
+  }
+  .approach-scheme .container .approach-scheme-title > * {
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+  }
+  .approach-scheme .container .approach-scheme-title > *:after {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: inherit;
+    content: '';
+    display: block;
+    margin-top: 2rem;
+    width: 60%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .approach-scheme .container {
+    width: 100% !important;
+  }
+}
