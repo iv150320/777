@@ -17,11 +17,11 @@ This repository contains the static files for an HTML/CSS presentation built usi
 
 ```mermaid
 graph TD
-    User[👤 Viewer] --> Browser[🌐 Web Browser]
-    Browser --> HTML[📄 index.html]
-    HTML --> CSS[🎨 style.css]
-    HTML --> Bootstrap[📚 Bootstrap CSS]
-    HTML --> FA[🌟 FontAwesome]
+    User["👤 Viewer"] --> Browser["🌐 Web Browser"]
+    Browser --> HTML["📄 index.html"]
+    HTML --> CSS["🎨 style.css"]
+    HTML --> Bootstrap["📚 Bootstrap CSS"]
+    HTML --> FA["🌟 FontAwesome"]
 
     classDef main fill:#f9d0c4,stroke:#333,stroke-width:2px;
     class User,Browser main;
